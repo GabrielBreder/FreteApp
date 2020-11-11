@@ -8,7 +8,7 @@ import SingInput from '../../components/SingInput';
 import SingButton from '../../components/SingButton';
 import SingText from '../../components/SingText';
 
-const Login: React.FC = () => {
+const Register: React.FC = () => {
   return (
     <Container>
       <Icon 
@@ -25,15 +25,18 @@ const Login: React.FC = () => {
       <SingInput  
         placeholder="Digite sua senha"
       />
+      <SingInput  
+        placeholder="Confirme a senha"
+      />
       <SingButton 
-        text="ENTRAR"
+        text="REGISTRAR"
       />
       <SingText 
-        accountText="Ainda não possui uma conta?"
-        log_registerText="Registre-se"
+        accountText="Já possui uma conta?"
+        log_registerText="Entre"
       />
     </Container>
   );
 }
 
-export default Login;
+export default Register;
