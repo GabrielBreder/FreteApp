@@ -34,6 +34,7 @@ const Register: React.FC = () => {
       <SingText 
         accountText="Já possui uma conta?"
         log_registerText="Entre"
+        log_registerRoute="Login"
       />
     </Container>
   );

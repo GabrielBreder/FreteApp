@@ -1,8 +1,7 @@
 import styled from 'styled-components/native';
 
 export const TouchableOpacity = styled.TouchableOpacity`
-  position: absolute;
-  bottom: 20px;
+  margin-top: 60px;
 `;
 
 export const Text = styled.Text`
